@@ -1,573 +1,1287 @@
 <!DOCTYPE html>
-<html lang="en" data-random-animation="false" data-animation="13">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html lang="en">
 
 <head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162095514-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162095514-1');
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MZS8355');</script>
-    <!-- End Google Tag Manager -->
-    
-    <!--Meta Tags-->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="Xuan Son, Aaron Nguyen, son2301, Nguyễn Xuân Sơn" />
-    <meta name="description" content="With a passion for programming, my desire is to work as a .NET developer in a dynamic,
-    professional, open and focused human development environment" />
-    <meta name="author" content="NXSon" />
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-    <!--Page Title-->
-    <title>Xuan Son</title>
-	
-	<meta proeperty="og:url" content="https://son2301.github.io/" />
-	<meta property="og:site_name" content="Tôi là Xuân Sơn" />
- 
-	<meta property="og:image" content="https://son2301.github.io/img/seo-img.png" />
-	<meta property="og:image:secure_url" content="https://son2301.github.io/img/seo-img.png" />
-	<meta property="og:image:width" content="1250" />
-	<meta property="og:image:height" content="720" />
-    <!--Plugins Css-->
-    <link rel="stylesheet" href="css/plugins.css">
-    <!--Main Styles Css-->
-    <link rel="stylesheet" href="css/style-light.css">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="css/style-demo.css">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-    <!--Color Css-->
-    <link class="site-color" rel="stylesheet" href="css/blue-color.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!--Modernizr Js-->
-    <script src="js/modernizr.js"></script>
-
-    <!--Favicons-->
-    <link rel="shortcut icon" href="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/88156368_2554640891444727_5457767500265553920_n.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=9IrN3l5gvx4AX9nyBH-&_nc_ht=scontent.fhan2-4.fna&oh=00d408c0cdd81595c045b4d1ba1ea63f&oe=5EA55566" type="image/x-icon">
-
-  
-
-    
-
+    <title> Xuan Son (Jason) </title>
 </head>
 
 <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <div class="logo__img">
+                    <img src="assets/img/logoS.png" alt="logo" class="logo">
+                </div>
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt nav__icon'></i>
+                        </a>
+                    </li>
 
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.ggoogletagmanager.com/ns.html?id=GTM-MZS8355"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
-    <div class="theme-options dark">
-        <div class="toggle-btn">
-            <span><i class="fas fa-cog"></i></span>
-        </div>
-        <div class="theme-menu">
-            <div class="page-transitions">
-                <h4>Page Animation</h4>
-                <select class="demo-select form-control" id="anim-type">
-                    <option>Choose</option>
-                    <option value="0">Random</option>
-                </select>
-            </div>
-            <div class="theme-color">
-                <h4 class="mt-20">Colors</h4>
-                <ul>
-                    <li><a href="css/blue-color.css" style="background-color: #00A3E1;;"></a></li>
-                    <li><a href="css/red-color.css" style="background-color: #E82A2A;"></a></li>
-                    <li><a href="css/green-color.css" style="background-color: #6ac045;"></a></li>
-                    <li><a href="css/yellow-color.css" style="background-color: #D1A71D;"></a></li>
-                    <li><a href="css/pink-color.css" style="background-color: #FF1493;"></a></li>
-                    <li><a href="css/purple-color.css" style="background-color: #5078FF;"></a></li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2 nav__icon'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail nav__icon'></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
-        </div>
-    </div>
 
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
 
-    <!--Preloader Start-->
-    <div class="preloader">
-        <div class="loader">
-            <!--Your Name-->
-            <h4>Xuan Son</h4>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-    <!--Preloader End-->
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Xuan Son (Jason)</h1>
+                    <h3 class="home__education"><span class="typing""></span></h3>
 
-    <div id="page">
-
-        <!--Header Start-->
-        <header>
-            <div class="header-content">
-
-                <!--Mobile Header-->
-                <div class="header-mobile">
-                    <a class="header-toggle"><i class="fas fa-bars"></i></a>
-                    <h2>Xuan Son</h2>
+                    <div class=" home__buttons">
+                            <!-- Insert your CV -->
+                            <a download="" href="assets/pdf/CV.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+                            <a href="#about" class="button">About me</a>
                 </div>
+            </div>
 
-                <!--Main Header-->
-                <div class="header-main" data-simplebar>
-                    <div class="image-container">
-                        <h2 class="header-name">Xuan Son</h2>
-                        <img src="img/profile-img.jpg" alt="profile-pic">
-                    </div>
+            <div class="home__handle">
+                <!-- Insert your image, according to the example size of the portfolio -->
+                <img src="" alt="" class="home__img">
+            </div>
 
-                    <!--Nav Menus-->
-                    <nav class="nav-menu">
-                        <ul>
-                            <li><a href="#home" class="pt-link active"><span class="nav-menu-icon"><i
-                                            class="lnr lnr-home"></i></span>Home </a> </li>
-                            <li><a href="#portfolio" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-briefcase"></i></span>Portfolio</a></li>
-                            <li><a href="#about" class="pt-link"><span class="nav-menu-icon"><i
-                                            class="lnr lnr-user"></i></span>About Me</a></li>              
-                      <!--  <li><a href="#resume" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-license"></i></span>Resume</a></li>
-                            <li><a href="#blog" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-book"></i></span>Blog</a></li>  -->
-                            <li><a href="#contact" class="pt-link"><span class="nav-menu-icon"><i
-                                            class="lnr lnr-envelope"></i></span>Contact</a></li>
-                        </ul>
-                    </nav>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/xu%C3%A2n-s%C6%A1n-nguy%E1%BB%85n-279649150/" target="_blank"
+                    class="home__social-link">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="https://github.com/Son2301" target="_blank" class="home__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.instagram.com/_nxson_/" target="_blank" class="home__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
 
-                    <!--Nav Footer-->
-                    <div class="nav-footer">
-                        <!--Social Links-->
-                        <ul class="social">
-                            <li><a href="https://www.facebook.com/nxson111"><i class="fab fa-facebook-square"></i></a></li>
-                            
-                            <li><a href="https://www.instagram.com/_nxson_/"><i class="fab fa-instagram"></i></a></li>
-                            
-                            
-                        </ul>
-                        <!--Copyright Text-->
-                        <div class="copy">
-                            <p>2019 &copy;  Xuan Son.<br>All Right Reserved.</p>
+            <a href="#about" class="home__scroll">
+                <i class='bx bx-mouse home__scroll-icon'></i>
+                <span class="home__scroll-name">Scroll Down</span>
+            </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">4 + Years Working</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">27 Projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-certification about__icon'></i>
+                            <h3 class="about__title">Certificates</h3>
+                            <span class="about__subtitle">5</span>
                         </div>
                     </div>
 
-                </div>
-            </div>
-        </header>
-        <!--Header End-->
-
-
-        <!--Main Start-->
-        <div id="main" class="site-main">
-
-            <!--Banner Section Start-->
-            <section id="home" class="banner-section pt-page"
-                style="background-image: url('img/background/home-bg.jpg')">
-
-                <div class="banner-content">
-                    <!--Banner Text-->
-                    <h1 class="mb-20">Xuan <span>Son</span></h1>
-
-                    <!--Animated Text-->
-                    <p class="cd-headline clip is-full-width">
-                        <span>I am </span>
-                        <span class="cd-words-wrapper">
-                            <b class="is-visible">a Web Developer</b>
-                            <b>a Social Media Designer</b>
-                            <b>a Digital Marketer</b>
-                            <b>an Investor</b>
-                        </span>
+                    <p class="about__description">
+                        I have 3+ years of experience in Website & CMS Development, 1+ year in Data Analysis, and 4+
+                        years in Digital Marketing. I have created many meaningful projects, and I have also delivered
+                        freelance work with positive feedback from my clients.
                     </p>
 
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Sass</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-            </section>
-            <!--Banner Section End-->
-           
-            <!-- PAGE : PORTFOLIO -->
-            <section id="portfolio" class="portfolio-section pt-page">
-                <div class="section-container">
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend</h3>
 
-                    <!--Page Heading-->
-                    <div class="page-heading">
-                        <span class="icon"><i class="lnr lnr-briefcase"></i></span>
-                        <h2>Portfolio.</h2>
+                    <div class="skills__box">
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">NodeJS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">AWS</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Django</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="row">
-                        <!--Portfolio Filter-->
-                        <div class="col-md-12 portfolio-filter text-center">
-                            <ul>
-                                <li class="active" data-filter="*">All</li>
-                                <li data-filter=".brand">Brand</li>
-                                <li data-filter=".community">Community</li>
-                                <li data-filter=".tool">Tools & Hobby</li>
+                <div class="skills__content">
+                    <h3 class="skills__title">Data Analysis</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Data Visualization</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">R</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Microsoft Excel</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Machine Learning</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Digital Marketing</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Content Marketing</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Graphic Design</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">SEO & SEM</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Social Media Marketing</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Services</span>
+            <h2 class="section__title">What I Offer</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Website <br> Development</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Website Development</h3>
+                            <p class="services__modal-description">
+                                Service with more than 3 years of experience.
+                                Providing quality work to clients and companies.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Responsive Webpages.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Web Design tailors to branding & products.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        UI/UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Scalable & Customizable Website.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Design and mockups of products for companies.
+                                    </p>
+                                </li>
                             </ul>
                         </div>
                     </div>
-
-
-
-                <!--Portfolio Items-->
-                <div class="row portfolio-items mb-50">
-                    <!--Portfolio Item-->
-                    <div class="item col-lg-4 col-sm-6 brand community">
-                    <a class="link" href="https://www.instagram.com/_motivatory_/">
-                     <figure>
-                             <img src="img/portfolio/img-1.jpg" alt="">
-                             <figcaption>
-                             <h4>Motivatory</h4>
-                             <p>Motivational Merch</p>                           
-                             </figcaption>
-                             </figure>
-                     </a>
-                    </div>
-                     
-                    
-                   <!--Portfolio Item-->
-                   <div class="item col-lg-4 col-sm-6 brand">
-                    <a class="ajax-link" href="single-work-videco.html">
-                        <figure>
-                            <img src="img/portfolio/img-3.jpg" alt="">
-                            <figcaption>
-                                <h4>Videco</h4>
-                                <p>Home Decoration</p>
-                            </figcaption>
-                        </figure>
-                    </a>
                 </div>
 
-                    
-                    
-                    
-                    <!--Portfolio Item-->
-                     <div class="item col-lg-4 col-sm-6 community">
-                        <a class="link" href="https://www.instagram.com/_thecoders_/">
-                            <figure>
-                                <img src="img/portfolio/img-5.jpg" alt="">
-                                <figcaption>
-                                    <h4>The Coders</h4>
-                                    <p>Coding Community</p>
-                                </figcaption>
-                            </figure>
-                        </a>
+                <div class="services__card">
+                    <h3 class="services__title">Data <br> Analysis</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Data Analysis</h3>
+                            <p class="services__modal-description">
+                                Providing in-depth analysis & reports with the latest tools
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Data Cleaning.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Precise & Professional Visualization.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Developing, implementing and maintaining databases.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Analyzing, interpreting the data and identifying the problems.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Providing practical solutions.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">CMS <br> Development</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">CMS Development</h3>
+                            <p class="services__modal-description">
+                                Working on different platforms such as: Wordpress, Shopify, Wix, etc.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Developing fully functional & responsive website.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Web Design using available or custom themes.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        SEO friendly webpages.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Future support available.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Digital <br> Marketing</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Digital Marketing</h3>
+                            <p class="services__modal-description">
+                                Delivering quality marketing campaign for businesses in the digital world.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Identifying trends and insights.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Allocating marketing finance & investments.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Managing & Optimizing content & content formats (Blog, Videos, etc.).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Designing branding suite (logo, color palette, etc.) .
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Analyzing & Implementing metrics.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Prioritizing sales & customer experience.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class="work__item" data-filter='.web'>Website</span>
+                <span class="work__item" data-filter='.brand'>Brand</span>
+                <span class="work__item" data-filter='.data'>Data & ML</span>
+            </div>
+
+            <div class="work__container container grid">
+
+                <!-- Project -->
+
+                <div class="work__card mix web">
+                    <img src="assets/img/project/clock.png" alt="" class="work__img">
+                    <h3 class="work__title">Minimalist <br> Clock</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Minimalist Clock (2022)</h3>
+                            <p class="services__modal-description">
+                                A simple website displaying a minimalist clock that tells the exact time and date.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I was able to practice Sass and minimalist designing principles
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="assets/project/clock/index.html">Visit</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project -->
+
+                <div class="work__card mix brand web">
+                    <img src="assets/img/project/warmly.png" alt="" class="work__img">
+                    <h3 class="work__title">Warmly <br> Decor</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Warmly Decor (Since 2020)</h3>
+                            <p class="services__modal-description">
+                                Co-founding this decor & furniture e-commerce website with a friend of mine, Warmly
+                                Decor was quite an experience for us.
+                                <br>Gruelling? Yes.
+                                <br>Depressing? Yes.
+                                <br>But we sure did learn a lot from running this business.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        This experience equipped us management, digital marketing, business finance,
+                                        and website development skills.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bxl-pinterest services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://www.pinterest.com/warmlydecor/_created/">Pinterest</a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://warmlydecor.com/">Website</a>
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project -->
+
+                <div class="work__card mix data">
+                    <img src="assets/img/project/stock.jpeg" alt="" class="work__img">
+                    <h3 class="work__title">Stock Analysis <br> & Prediction Model</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Stock Analysis & <br> Prediction Model (2021)</h3>
+                            <p class="services__modal-description">
+                                My first machine learning project.
+                                <br> Thoughts? Fun and Ferocious
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I learned how to make analyzing & predicting model using basic frameworks.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bxl-github services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://github.com/Son2301/Stock-Analysis">Github</a>
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project -->
+
+                <div class="work__card mix web">
+                    <img src="assets/img/project/splitter.png" alt="" class="work__img">
+                    <h3 class="work__title">Splitter - <br>Tip Calculator</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Splitter (2021)</h3>
+                            <p class="services__modal-description">
+                                A challenge from the Frontend Mentor.
+                                <br>It was quite an experience building this and I sure have learned a lot from it.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I was able to further develop my web design skill.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="assets/project/splitter/index.html">Visit</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project -->
+
+                <div class="work__card mix web">
+                    <img src="assets/img/project/sneaker.png" alt="" class="work__img">
+                    <h3 class="work__title">Sneaker <br> Product Page</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Sneaker Product Page (2020)</h3>
+                            <p class="services__modal-description">
+                                I developed the main product page of an e-commerce website selling sneakers.
+                                <br>This project was a milestone in my web developing journey.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I learned the basic concept of designing and developing an e-commerce website
+                                        aiming specific audience.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="assets/project/sneaker/index.html">Visit</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="work__card mix brand">
+                    <img src="assets/img/project/technoholic.png" alt="" class="work__img">
+                    <h3 class="work__title">Technoholic</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Technoholic (Since 2018)</h3>
+                            <p class="services__modal-description">
+                                An Instagram page & blog about technology around us.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I learned how to run and grow a social media profile.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bxl-instagram services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://www.instagram.com/_technoholic_/">Instagram</a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bxl-wix services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://technoholicblog.wixsite.com/technoholic">Blog</a>
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project -->
+
+                <div class="work__card mix data">
+                    <img src="assets/img/project/twitter.png" alt="" class="work__img">
+                    <h3 class="work__title">Twitter <br> Sentiment</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Twitter Sentiment (2021)</h3>
+                            <p class="services__modal-description">
+                                This project will always be a joy to work on
+                                <br>...if you possess an iron will.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I learned all the factors required in a great sentiment program (algorithms,
+                                        frameworks, etc.).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bxl-github services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://github.com/Son2301/Twitter-Sentiment">Github</a>
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project -->
+
+                <div class="work__card mix web">
+                    <img src="assets/img/project/sleep.png" alt="" class="work__img">
+                    <h3 class="work__title">Sleep <br> Calculator</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Sleep Calculator (2019)</h3>
+                            <p class="services__modal-description">
+                                A Web App calculating ideal sleeping time.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I learned basic JS scripting and basic layout element.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="assets/project/sleep/index.html">Visit</a>
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project -->
+
+                <div class="work__card mix brand">
+                    <img src="assets/img/project/sleepee.png" alt="" class="work__img">
+                    <h3 class="work__title">Sleepee</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Sleepee (Since 2018)</h3>
+                            <p class="services__modal-description">
+                                My first e-commerce project.
+                                <br>Ended up selling to another person.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I learned the basics of digital marketing and web developing.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bxl-facebook services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://www.facebook.com/sleepee111">Facebook Page</a>
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project -->
+
+                <div class="work__card mix brand">
+                    <img src="assets/img/project/videco.png" alt="" class="work__img">
+                    <h3 class="work__title">Videco</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Videco (Since 2019)</h3>
+                            <p class="services__modal-description">
+                                My 2nd e-commerce project.
+                                <br>Well, it wasn't a success, and there were definitely some valuable lessons to take.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I learned how to better manage cash flow, customer-oriented marketing campaign,
+                                        and the logistic behind a proper online business.
+
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="https://www.facebook.com/videcovn">Facebook Page</a>
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project -->
+
+                <div class="work__card mix web">
+                    <img src="assets/img/project/mario.png" alt="" class="work__img">
+                    <h3 class="work__title">Super Mario <br> HTML5</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Super Mario HTML5 (2018)</h3>
+                            <p class="services__modal-description">
+                                A playful project that was built from the brick and mortal of my love to the Mario
+                                franchise.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-bullseye services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        I learned the basic concepts of building a web based game.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        <a href="assets/project/mario/index.html">Visit</a> (only run on PC & Desktop)
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <!-- <section class="testimonial section"> 
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonial</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Jhon Doe</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were
+                            followed step by step and with good results.
+                        </p>
                     </div>
 
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
 
-                        
+                        <h3 class="testimonial__name">Paula Vusy</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were
+                            followed step by step and with good results.
+                        </p>
+                    </div>
 
-                       
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
 
-                        <!--Portfolio Item-->
-                        <div class="item col-lg-4 col-sm-6 brand">
-                            <a class="ajax-link" href="single-work-sleepee.html">
-                                <figure>
-                                    <img src="img/portfolio/img-6.jpg" alt="">
-                                    <figcaption>
-                                        <h4>Sleepee</h4>
-                                        <p>Home Decoration</p>
-                                    </figcaption>
-                                </figure>
+                        <h3 class="testimonial__name">Sara Cill</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were
+                            followed step by step and with good results.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+-->
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">jasonnguyen231.work@gmail.com</span>
+
+                            <!-- Insert your original email -->
+                            <a href="mailto:jasonnguyen231.work@gmail.com" target="_blank" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
 
-                       
+                        <div class="contact__card">
+                            <i class='bx bxl-telegram contact__card-icon'></i>
+                            <h3 class="contact__card-title">Telegram</h3>
+                            <span class="contact__card-data">nxson</span>
 
-                          <!--Portfolio Item-->
-                          <div class="item col-lg-4 col-sm-6 community ">
-                            <a class="link" href="https://technoholicblog.wixsite.com/technoholic">
-                                <figure>
-                                    <img src="img/portfolio/img-2.jpg" alt="">
-                                    <figcaption>
-                                         <h4>Technoholic</h4>
-                                         <p>Technology Blog</p>
-                                    </figcaption>
-                                </figure>
+                            <!-- Insert a real number plus country code -->
+                            <a href="https://t.me/nxson" target="_blank" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
-                        </div> 
+                        </div>
 
-                    <!--Portfolio Item-->
-                    <div class="item col-lg-4 col-sm-6 community ">
-                          <a class="link" href="https://www.facebook.com/M%C3%A3-Gi%E1%BA%A3m-Gi%C3%A1-24h-101327134855726">
-                             <figure>
-                                <img src="img/portfolio/img-4.png" alt="">
-                                <figcaption>
-                                      <h4>Ma Giam Gia 24h</h4>
-                                       <p>Coupon Site</p>
-                                </figcaption>
-                             </figure>
-                           </a>
-                    </div> 
+                        <div class="contact__card">
+                            <i class='bx bxl-messenger contact__card-icon'></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">user.nxson231</span>
 
-                    <!--Portfolio Item-->
-                    <div class="item col-lg-4 col-sm-6 tool ">
-                        <a class="link" href="https://son2301.github.io/sleep/">
-                           <figure>
-                              <img src="img/portfolio/img-7.png" alt="">
-                              <figcaption>
-                                    <h4>Sleep Calculator</h4>
-                                     <p>Know when to wake up feeling energized.</p>
-                              </figcaption>
-                           </figure>
-                         </a>
-                  </div> 
-                       
-
-                    <!--Portfolio Item-->
-                    <div class="item col-lg-4 col-sm-6 tool ">
-                        <a class="link" href="https://son2301.github.io/Mario/">
-                           <figure>
-                              <img src="img/portfolio/img-8.jpg" alt="">
-                              <figcaption>
-                                    <h4>Super Mario HTML 5</h4>
-                                     <p>Hobbyist Mario game (only run on PC)</p>
-                              </figcaption>
-                           </figure>
-                         </a>
-                  </div> 
-                  
-
+                            <!-- Insert your brand name or profile -->
+                            <a href="https://m.me/nxson231" target="_blank" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <!--Porfolio Section End-->
-            <!-- PAGE : PORTFOLIO -->
-         
 
-            <!--About Section Start-->
-            <section id="about" class="about-section pt-page">
-                <div class="section-container">
-                    <!--Page Heading-->
-                    <div class="page-heading">
-                        <span class="icon"><i class="lnr lnr-user"></i></span>
-                        <h2>About Me.</h2>
-                    </div>
+                <div class="contact__content">
+                    <h3 class="contact__title">Send me a message</h3>
 
-                    <!-- About Info Row Start-->
-                    <div class="row about mb-70">
-
-                        <div class="col-lg-8">
-                            <!--Personal Intro-->
-                            <h3 class="mb-20"> Web Developer</h3>
-                            <p>With a passion for programming, my desire is to work as a Developer in a dynamic,
-                                professional, open and focused human development environment. Since then improve
-                                knowledge, skills themselves, contribute more to the company.</p>
-
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Names</label>
+                            <input type="text" placeholder="Insert your name" class="contact__form-input">
                         </div>
 
-                        <!--Personal Info-->
-                        <div class="col-lg-4">
-                            <div class="about-info">
-                                <h3 class="mb-20">Personal Information</h3>
-                                <ul>
-                                    <li><span class="title">Name</span><span class="value">Xuan Son</span></li>
-                                    <li><span class="title">Age</span><span class="value">18 </span></li>
-                                    <li><span class="title">Residence</span><span class="value">Ha Noi - Viet Nam</span>
-                                    </li>
-                                    <li><span class="title">Address</span><span class="value">Nguyen Chanh - Cau Giay -
-                                            Ha Noi</span></li>
-                                    <li><span class="title">Email</span><span class="value">sonnguyenxuan2002@gmail.com</span>
-                                    </li>
-                                    <li><span class="title">Phone</span><span class="value">(+84) 399 020 366</span>
-                                    </li>
-
-                                </ul>
-                                <div class="resume-button mt-30">
-                                    <a class="btn-main" href="#">Download Resume</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- About Info Row End-->
-
-                    <!--Services Row Start-->
-                    <div class="row services mb-30">
-                        <div class="col-md-12">
-                            <div class="subheading">
-                                <h3>Services</h3>
-                            </div>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input type="email" placeholder="Insert your email" class="contact__form-input">
                         </div>
 
-                        <!--Service Item-->
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="service-item">
-                                <div class="icon"><i class="lnr lnr-keyboard"></i></div>
-                                <h4>Web Development</h4>
-                                
-                            </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your project"
+                                class="contact__form-input"></textarea>
                         </div>
 
-                        <!--Service Item-->
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="service-item">
-                                <div class="icon"><i class="lnr lnr-eye"></i></div>
-                                <h4>Web Design</h4>
-                                
-                            </div>
-                        </div>
-
-                        <!--Service Item-->
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="service-item">
-                                <div class="icon"><i class="lnr lnr-laptop-phone"></i></div>
-                                <h4>Digital Marketing</h4>
-                                
-                            </div>
-                        </div>
-
-                        <!--Service Item-->
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="service-item">
-                                <div class="icon"><i class="lnr lnr-store"></i></div>
-                                <h4>E-commerce</h4>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <!--Services Row End-->
-
-
+                        <button class="button">Send Message</button>
+                    </form>
                 </div>
-            </section>
-            <!--About Section Start-->
+            </div>
+        </section>
+    </main>
 
-            <!--Contact Section Start-->
-            <section id="contact" class="contact-section pt-page">
-                <div class="section-container">
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">JaSon</h1>
 
-                    <!--Page Heading-->
-                    <div class="page-heading">
-                        <span class="icon"><i class="lnr lnr-envelope"></i></span>
-                        <h2>Contact Me.</h2>
-                    </div>
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#testimonial" class="footer__link">Testimonials</a>
+                </li>
+            </ul>
 
-                    <!--Form Row-->
-                    <div class="row mb-70">
-                        <div class="col-lg-8  offset-lg-2">
-                            <div class="subheading">
-                                <h3>Let's Talk</h3>
-                            </div>
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/nxson231/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com/_nxson_/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </ul>
 
-                            <!--Form Start-->
-                            <form id="contact-form" method="post" action="#">
-                                <div class="row">
-
-
-                                    <!--Name Field-->
-                                    <div class="col-md-6 mb-50">
-                                        <span class="input">
-                                            <input class="input__field cf-validate" type="text" id="cf-name"
-                                                name="name" />
-                                            <label class="input__label" for="cf-name">Name</label>
-                                        </span>
-                                    </div>
-
-                                    <!--Email Field-->
-                                    <div class="col-md-6 mb-50">
-                                        <span class="input">
-                                            <input class="input__field cf-validate" type="text" id="cf-email"
-                                                name="email" />
-                                            <label class="input__label" for="cf-email">Email</label>
-                                        </span>
-                                    </div>
-
-                                    <!--Message Box-->
-                                    <div class="col-md-12 mb-30">
-                                        <span class="input">
-                                            <textarea class="input__field cf-validate" id="cf-message" name="message"
-                                                rows="5"></textarea>
-                                            <label class="input__label" for="cf-message">How can we help you?</label>
-                                        </span>
-                                    </div>
-
-                                    <div class="alert-container col-md-12"></div>
-
-                                    <!--Submit Button-->
-                                    <div class="col-md-12 text-center">
-                                        <button id="cf-submit" class="btn-main">Send Message</button>
-                                    </div>
-
-
-                                </div>
-                            </form>
-                            <!--Form End-->
-
-                        </div>
-                    </div>
-
-                    <!--Contact Info Row Start-->
-                    <div class="row contact-info mb-70">
-
-                        <!--Contact Info Item-->
-                        <div class="col-md-4 info-item">
-                            <span class="icon"><i class="fas fa-paper-plane"></i></span>
-                            <h5><a href="mailto:sonnguyenxuan2002@gmail.com">sonnguyenxuan2002@gmail.com</a></h5>
-                        </div>
-
-                        <!--Contact Info Item-->
-                        <div class="col-md-4 info-item">
-                            <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
-                            <h5>Nguyen Chanh - Ha Noi - Viet Nam</h5>
-                        </div>
-
-                        <!--Contact Info Item-->
-                        <div class="col-md-4 info-item">
-                            <span class="icon"><i class="fas fa-phone"></i></span>
-                            <h5>(+84) 399 020 366</h5>
-                        </div>
-
-                    </div>
-                    <!--Contact Info Row End-->
-
-                </div>
-            </section>
-            <!--Contact Section End-->
-
-
+            <span class="footer__copy">
+                &#169; Xuan Son. All rights reserved
+            </span>
         </div>
-        <!--Main End-->
+    </footer>
 
-    </div>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-    <!--Ajax Portfolio Container Start-->
-    <div class="ajax-portfolio-popup" data-simplebar>
-        <span class="ajax-loader"></span>
-        <div class="navigation-wrap">
-            <span class="popup-close"><i class="fas fa-times-circle"></i></span>
-        </div>
-        <div class="content-wrap">
-            <div class="popup-content"></div>
-        </div>
-    </div>
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
-  
-   
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
 
-    <!--Jquery JS-->
-    <script src="js/jquery.min.js"></script>
-    <!--Plugins JS-->
-    <script src="js/plugins.min.js"></script>
-    <!--Google Map Api-->
-    <!--<script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxjdAabKFsk7CHhYq3VNKkwRyonhLHWDo"></script> -->
-    <!--Site Main JS-->
-    <script src="js/main.js"></script>
-    <script src="js/backstretch.js"></script>
-    <script src="js/main-demo.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
 
+    <!--=============== Text Animation ===============-->
+
+    <script src="assets/js/typed.js/typed.min.js"></script>
+    <script type="text/javascript">
+        var typed = new Typed('.typing', {
+            strings: ["Web Developer", "Data Analyst", "Digital Marketer"],
+            loop: true,
+            typeSpeed: 50,
+            backSpeed: 50
+        });
+    </script>
 </body>
 
 </html>
